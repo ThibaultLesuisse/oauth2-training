@@ -1,5 +1,3 @@
-using System.Security.Cryptography.Xml;
-using IdentityModel;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
