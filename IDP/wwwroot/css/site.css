@@ -1,0 +1,32 @@
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  width: 400px; /* Adjust width as needed */
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #343a40; /* Dark gray heading */
+}
+.form-label {
+  color: #343a40; /* Dark gray label */
+}
+.btn-primary {
+  background-color: #007bff; /* Blue button */
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0069d9; /* Darker blue on hover */
+  border-color: #0062cc;
+}
